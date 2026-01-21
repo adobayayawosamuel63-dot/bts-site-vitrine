@@ -105,3 +105,12 @@ button{
     width: 70px;
     border-radius: 5px;
 }
+.page1{
+    border: 7px,solid,black;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
