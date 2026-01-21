@@ -1,4 +1,58 @@
-.run{
+.phase1{
+    width: 1790px;
     display: flex;
-    justify-content: space-between;
+     
+
+} 
+article{
+border: 3px, solid, rgb(226, 131, 131);
+
+}
+.phase2{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services{
+ border: 3px, solid, black;
+ color: rgb(54, 66, 66);
+ width: 1790px;
+height: 300px;
+background-color: rgb(142, 142, 156) ;
+border-radius: 20PX;
+justify-content: center;
+align-items: center;
+}
+#dept{
+
+display: flex;
+justify-content: center;
+
 }
