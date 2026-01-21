@@ -12,9 +12,40 @@ border: 3px, solid, rgb(226, 131, 131);
     display: flex;
 }
 
+.phase3{
+    display: flex;
+}
+
+#toggle {
+    display: none;
+}
 
 
+.gallery {
+    display: none;
+    margin-top: 30px;
+    gap: 20px;
+    
+}
 
+
+#toggle:checked ~ .gallery {
+    display: flex; 
+}
+
+
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
