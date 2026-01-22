@@ -1,89 +1,123 @@
-.phase1{
-    width: 1790px;
-    display: flex;
-     
 
-} 
-article{
-border: 3px, solid, rgb(226, 131, 131);
-
-}
-.phase2{
-    display: flex;
+.phase1 {
+  display: flex;        
+  flex-wrap: wrap;      
+  gap: 20px;            
+  justify-content: center; 
 }
 
-.phase3{
-    display: flex;
+.phase2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
+
+.phase3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+article {
+  width: 260px;                        
+  text-align: center;                   
+  border: 3px solid rgb(226, 131, 131); 
+  border-radius: 10px;                  
+  overflow: hidden;                     
+}
+
+
+article img {
+  width: 100%;         
+  height: 180px;       
+  object-fit: cover;   
+  border-radius: 10px; 
+}
+
+
+article p {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
 
 #toggle {
-    display: none;
+  display: none;       
 }
-
 
 .gallery {
-    display: none;
-    margin-top: 30px;
-    gap: 20px;
-    
+  display: none;       
+  margin-top: 30px;
+  gap: 20px;
 }
 
-
 #toggle:checked ~ .gallery {
-    display: flex; 
+  display: flex;       
 }
 
 
 .btn {
-    display: block;
-    width: fit-content;
-    margin: 40px auto;
-    padding: 12px 25px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 6px;
-    font-weight: bold;
-    text-align: center;
+  display: block;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 12px 25px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.services{
- border: 3px, solid, black;
- color: rgb(54, 66, 66);
- width: 1790px;
-height: 300px;
-background-color: rgb(142, 142, 156) ;
-border-radius: 20PX;
-justify-content: center;
-align-items: center;
+.pub-container {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 20px;
+  justify-content: center;
 }
-#dept{
 
-display: flex;
-justify-content: center;
+.pub {
+  width: 260px;         
+  height: 180px;        
+  border-radius: 10px;
+  overflow: hidden;
+}
 
+.pub video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    
+}
+
+.services {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(142, 142, 156);
+  border-radius: 20px;
+  color: rgb(54, 66, 66);
+  text-align: justify;
+}
+
+#dept {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  article, .pub {
+    width: 45%;        
+  }
+}
+
+@media (max-width: 480px) {
+  article, .pub {
+    width: 100%;       
+  }
 }
