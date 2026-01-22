@@ -1,0 +1,170 @@
+*{
+    margin: 5px;
+    padding: 0;
+    font-family:cursive;
+    background-color: rgb(207, 207, 168);
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    font-size: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.acceuil-logo{
+    background-color: aquamarine;
+    width: 1790px;
+    height: 1020px;
+}
+
+.oui{
+    background-color: rgb(207, 207, 168);
+}
+ 
+
+#navi{
+    display: flex;
+    justify-content: space-around;
+    height :60px;
+    width: 1790px;
+}
+#barre{
+    width: 850px;
+    border-radius: 40px;
+    border: 4px, solid,rgb(255, 255, 255);
+    padding: 5px;
+
+}
+a{
+    color: rgb(2, 2, 2);
+    background: none;
+    box-sizing: 5px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: 3px;
+    text-decoration: none ;
+}
+
+:root {
+  --slide-width: 250px;
+  --nb-articles: 4; 
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden; 
+  background: white;
+  padding: 20px 0;
+  height: 350px;
+  width:1790px ;
+  border-radius:20px;
+  background-color: rgb(207, 207, 168);
+  
+}
+
+.slider-track {
+  display: flex;
+  width: calc(var(--slide-width) * var(--nb-articles) * 2);
+  animation: scroll-auto 18s linear infinite;
+}
+
+.slide {
+  width: var(--slide-width);
+  height: 300px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+  background: #ffffff;
+  margin: 0 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 4px,solid,black;
+
+}
+
+
+@keyframes scroll-auto {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    
+    transform: translateX(calc(-1 * var(--slide-width) * var(--nb-articles)));
+  }
+}
+
+
+.slider-container:hover .slider-track {
+  animation-play-state: paused;
+}
+
+button{
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    height: 37px;
+    width: 70px;
+    border-radius: 5px;
+}
+.page1{
+    border: 7px,solid,black;
+    height: 60px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size:x-large;
+    background-color: white;
+}
+
+p{
+    font-size-adjust: 1;
+}
+
+.about{
+    width: 900px;
+    border: 3px,solid,black;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: white;
+    
+}
+
+.jean{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    height: 80px;
+}
+
+.pabout{
+    background-color: white;
+}
+strong{
+    background-color: white;
+}
+.titree{
+    background-color: white;
+}
+.woo{
+    background-color: white;
+}
+
+.iavid{
+     width: 500px;
+    border: 3px,solid,black;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.presentation{
+  
+    display: flex;
+}
