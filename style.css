@@ -9,8 +9,8 @@ h1{
     display: flex;
     justify-content:center;
     font-size: 75px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
 }
 .acceuil-logo{
@@ -18,9 +18,11 @@ h1{
     width: 1790px;
     height: 1020px;
 }
- i::{
-    font-family: fantasy;
- }
+
+.oui{
+    background-color: rgb(207, 207, 168);
+}
+ 
 
 #navi{
     display: flex;
@@ -117,6 +119,7 @@ button{
     align-items: center;
     border-radius: 10px;
     font-size:x-large;
+    background-color: white;
 }
 
 p{
@@ -124,10 +127,12 @@ p{
 }
 
 .about{
-    width: 700px;
-    border: 1px,solid,black;
+    width: 900px;
+    border: 3px,solid,black;
     border-radius: 30px;
     padding-left: 10px;
+    background-color: white;
+    
 }
 
 .jean{
@@ -137,4 +142,29 @@ p{
     align-items: center;
     width: 1700px;
     height: 80px;
+}
+
+.pabout{
+    background-color: white;
+}
+strong{
+    background-color: white;
+}
+.titree{
+    background-color: white;
+}
+.woo{
+    background-color: white;
+}
+
+.iavid{
+     width: 500px;
+    border: 3px,solid,black;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.presentation{
+  
+    display: flex;
 }
