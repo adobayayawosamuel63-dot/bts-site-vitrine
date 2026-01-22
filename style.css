@@ -1,7 +1,7 @@
 *{
     margin: 5px;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:cursive;
     background-color: rgb(207, 207, 168);
 }
 
@@ -18,12 +18,15 @@ h1{
     width: 1790px;
     height: 1020px;
 }
-
+ i::{
+    font-family: fantasy;
+ }
 
 #navi{
     display: flex;
     justify-content: space-around;
     height :60px;
+    width: 1790px;
 }
 #barre{
     width: 850px;
@@ -107,10 +110,31 @@ button{
 }
 .page1{
     border: 7px,solid,black;
-    height: 30px;
-    width: 250px;
+    height: 60px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    font-size:x-large;
+}
+
+p{
+    font-size-adjust: 1;
+}
+
+.about{
+    width: 700px;
+    border: 1px,solid,black;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.jean{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    height: 80px;
 }
