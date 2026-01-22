@@ -1,40 +1,21 @@
-
-.phase1 {
-  display: flex;        
-  flex-wrap: wrap;      
-  gap: 20px;            
-  justify-content: center; 
+body {
+  background-color: rgba(163, 155, 106, 0.849);
 }
-
-.phase2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.phase3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
 
 article {
-  width: 260px;                        
-  text-align: center;                   
-  border: 3px solid rgb(226, 131, 131); 
-  border-radius: 10px;                  
-  overflow: hidden;                     
+  width: 260px;
+  text-align: center;
+  border: 3px solid rgb(32, 32, 32);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 
 article img {
-  width: 100%;         
-  height: 180px;       
-  object-fit: cover;   
-  border-radius: 10px; 
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 
@@ -45,17 +26,28 @@ article p {
 
 
 #toggle {
-  display: none;       
+  display: none;
 }
 
 .gallery {
-  display: none;       
+  display: none;
   margin-top: 30px;
   gap: 20px;
+  justify-content: center;
+}
+
+.phase1,
+.phase2,
+.phase3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 #toggle:checked ~ .gallery {
-  display: flex;       
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -75,14 +67,14 @@ article p {
 
 .pub-container {
   display: flex;
-  flex-wrap: wrap;      
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
 .pub {
-  width: 260px;         
-  height: 180px;        
+  width: 260px;
+  height: 180px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -90,7 +82,21 @@ article p {
 .pub video {
   width: 100%;
   height: 100%;
-  object-fit: cover;    
+  object-fit: cover;
+}
+
+
+.contact {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contact-btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .services {
@@ -98,9 +104,9 @@ article p {
   max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
-  background-color: rgb(142, 142, 156);
+  background-color: rgb(247, 247, 248);
   border-radius: 20px;
-  color: rgb(54, 66, 66);
+  color: rgb(1, 14, 14);
   text-align: justify;
 }
 
@@ -111,13 +117,15 @@ article p {
 
 
 @media (max-width: 768px) {
-  article, .pub {
-    width: 45%;        
+  article,
+  .pub {
+    width: 45%;
   }
 }
 
 @media (max-width: 480px) {
-  article, .pub {
-    width: 100%;       
+  article,
+  .pub {
+    width: 100%;
   }
 }
