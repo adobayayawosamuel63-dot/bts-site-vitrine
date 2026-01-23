@@ -1,6 +1,6 @@
 
 body {
-  background-color:  background-color: rgb(207, 207, 168);;
+  background-color: rgb(207, 207, 168);
 }
 
 article {
@@ -28,6 +28,10 @@ article p {
 
 #toggle {
   display: none;
+}
+
+#non{
+    display: none;
 }
 
 .gallery {
@@ -105,11 +109,14 @@ article p {
   max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
-  background-color: rgb(247, 247, 248);
+   background-color: white;
   border-radius: 20px;
   color: rgb(1, 14, 14);
   text-align: justify;
+  border: 3px,solid,black;
 }
+
+
 
 #dept {
   display: flex;
@@ -125,7 +132,8 @@ article p {
 }
 
 @media (max-width: 480px) {
-  article,
+  article , 
+            }
   .pub {
     width: 100%;
   }
