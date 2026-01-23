@@ -126,19 +126,20 @@ article p {
 
 
 @media (max-width: 768px) {
-  article,
+        article,
   .pub {
     width: 45%;
   }
 }
 
 @media (max-width: 480px) {
+
   article, 
             
   .pub {
     width: 100%;
-  }
- }
+  } }
+
 
 *{
     margin: 5px;
@@ -173,7 +174,7 @@ h1{
     width: 1790px;
 }
 #barre{
-    width: 850px;
+    width: 500px;
     border-radius: 40px;
     border: 4px, solid,rgb(255, 255, 255);
     padding: 5px;
