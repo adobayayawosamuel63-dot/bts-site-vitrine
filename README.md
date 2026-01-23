@@ -20,6 +20,9 @@ update/nom > mis a jour d'un ou des fichiers
 
 NOUS RAPPELONS QUE CE TRAVAILEAT FAIT PAR : adobaya yawo davy samuel(ETUDIANT A) et ANIDOU JEAN(ETUDIANT B)
 
+ajout de la page de connexion par: ADOBAYA Yawo Davy Samuel
+ajout de la page: RAYON DES ENFANTS
+
 
 
  
